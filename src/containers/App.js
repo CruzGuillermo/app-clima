@@ -16,7 +16,11 @@ function App() {
   }
   function onSearch(ciudad) {
     fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}`
+      `http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}`,{
+        headers: {
+            "Access-Control-Allow-Origin": "*",
+        }
+      }
     )
       .then((r) => r.json())
       .then((recurso) => {
