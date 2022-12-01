@@ -1,0 +1,15 @@
+.containers{
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+   color: white;
+}
+
+.contenedor{
+    justify-content: center;
+    align-items: center;
+    width: 23rem;
+    height: 250px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .contenedor{
+    background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+    height: 100vh;
+    background-size: cover;
+} */
